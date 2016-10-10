@@ -265,10 +265,28 @@ class Sheet {
     }
 
     css(fileText) {
-        console.log(fileText);
-        //const rawCss = fileText.toString();
-        //const parsedCss = css.parse(rawCss);
-        //console.log(parsedCss);
+        // const rawCss = fileText.toString();
+        // const parsedCss = css.parse(rawCss);
+        // console.log(parsedCss);
+        // const rules = parsedCss.stylesheet.rules;
+        // for (let ruleIndex = 0, ruleLen = rules.length; ruleIndex < ruleLen; ruleIndex++) {
+        //     const rule = rules[ruleIndex];
+        //     const declarations = rule.declarations;
+        //     const content = {};
+        //     for (let declarationIndex = 0, declarationLen = declarations.length; declarationIndex < declarationLen; declarationIndex++) {
+        //         const declaration = declarations[declarationIndex];
+        //         const property = declaration.property;
+        //         const value = declaration.value;
+        //         console.log(declaration);
+        //         content[property] = value;
+        //     }
+        //     console.log(content);
+        //     const selectors = rule.selectors;
+        //     for (let selectorIndex = 0, selectorLen = selectors.length; selectorIndex < selectorLen; selectorIndex++) {
+        //         const selector = selectors[selectorIndex];
+        //         console.log(selector);
+        //     }
+        // }
     }
 
     reset() {

@@ -70,7 +70,7 @@ const prefixRule = (str, browser) => {
     const skipIndex = browser.skipRules.indexOf(str);
     const vendorIndex = browser.vendors.indexOf(str);
     if (ruleIndex === -1 && skipIndex === -1 && vendorIndex === -1) {
-        console.log(`-${browser.prefix}-${str}`)
+        //console.log(`-${browser.prefix}-${str}`)
         return `-${browser.prefix}-${str}`;
     }
 
