@@ -17,8 +17,8 @@ module.exports = function (sheet) {
             paddingRight: component.padding,
             '@media(max-width: 800px)': {
                 width: '100%',
-                paddingLeft: `${parseInt(component.padding, 10) * 0.5}px`,
-                paddingRight: `${parseInt(component.padding, 10) * 0.5}px`,
+                paddingLeft: `${parseInt(component.padding, 10) * 0.75}px`,
+                paddingRight: `${parseInt(component.padding, 10) * 0.75}px`,
             },
         });
     };

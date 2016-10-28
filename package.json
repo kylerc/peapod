@@ -1,6 +1,6 @@
 {
-    "name": "peapod",
-    "version": "0.0.1",
+    "name": "peapod-js",
+    "version": "0.1.0",
     "description": "UI Kit from Audentio Design.",
     "main": "index.js",
     "scripts": {

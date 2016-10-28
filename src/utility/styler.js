@@ -469,7 +469,7 @@ window.Styler = window.Styler || {
 
         for (let selectorIndex = 0, selectorLen = selectors.length; selectorIndex < selectorLen; selectorIndex++) {
             const selector = selectors[selectorIndex];
-
+            
             this.addToStylesheetRaw(selector.key, selector.style, window.Styler.styleRootEle, style.unique);
         }
 
